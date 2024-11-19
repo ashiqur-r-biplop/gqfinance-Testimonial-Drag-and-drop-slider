@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: #000;
+}
 :root {
   --container-width: 1300px;
   --slider-container-width: 100%;
@@ -17,19 +20,15 @@
 .testimonial-container {
   max-width: var(--container-width);
   margin: 0 auto;
-
-  padding: 20px 0;
   font-family: "Montserrat", serif;
 }
 
 .testimonials {
-  padding: 40px;
   overflow-x: hidden;
   width: 100%;
 }
 
 .sliders {
-  padding: 20px 0;
   display: flex;
   align-items: start;
   width: var(--slider-container-width);
@@ -39,7 +38,7 @@
 
 .slide {
   min-width: calc(var(--slider-container-width) / 3);
-  padding: 20px;
+  padding: 10px;
 }
 .slide-inner-box {
   width: 100%;
@@ -49,16 +48,16 @@
   justify-content: center;
   align-items: center;
   gap: 10px;
-
   font-size: 32px;
   padding: 40px 20px;
   border-radius: 20px;
+  background-color: white;
 }
 
 /* content style */
 .quat {
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 .quat img {
   width: 100%;
