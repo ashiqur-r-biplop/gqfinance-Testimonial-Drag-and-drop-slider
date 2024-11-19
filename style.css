@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+    --container-width: 1300px;
+    --slider-container-width: 100%;
+    --slider-card-width: (var(--slider-container-width) / 3)%;
+}
