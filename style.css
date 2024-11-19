@@ -10,7 +10,10 @@
   --text-color: #54595f;
   --text-black: #000;
 }
-
+.sliders,
+.sliders * {
+  user-select: none;
+}
 .testimonial-container {
   max-width: var(--container-width);
   margin: 0 auto;
@@ -31,6 +34,7 @@
   align-items: start;
   width: var(--slider-container-width);
   overflow: hidden;
+  transition: none;
 }
 
 .slide {
